@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use KKomelin\TranslatableStringExporter\Providers\ExporterServiceProvider;
+use TheRichardW\TranslateScanner\Providers\ExporterServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class BaseTestCase extends TestCase

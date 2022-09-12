@@ -1,8 +1,8 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Core;
+namespace TheRichardW\TranslateScanner\Core;
 
-use KKomelin\TranslatableStringExporter\Core\Utils\IO;
+use TheRichardW\TranslateScanner\Core\Utils\IO;
 
 class UntranslatedStringFinder
 {

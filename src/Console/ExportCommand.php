@@ -1,9 +1,9 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Console;
+namespace TheRichardW\TranslateScanner\Console;
 
 use Illuminate\Console\Command;
-use KKomelin\TranslatableStringExporter\Core\Exporter;
+use TheRichardW\TranslateScanner\Core\Exporter;
 use Symfony\Component\Console\Input\InputArgument;
 
 class ExportCommand extends Command

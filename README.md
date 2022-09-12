@@ -29,7 +29,7 @@ composer require kkomelin/laravel-translatable-string-exporter --dev
 To change [project defaults](https://github.com/kkomelin/laravel-translatable-string-exporter/wiki/Configuration-and-Project-Defaults), use the following command to create a configuration file in your `config` folder and make necessary changes in there:
 
 ```bash
-php artisan vendor:publish --provider="KKomelin\TranslatableStringExporter\Providers\ExporterServiceProvider"
+php artisan vendor:publish --provider="TheRichardW\TranslateScanner\Providers\ExporterServiceProvider"
 ```
 
 ## Usage

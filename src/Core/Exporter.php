@@ -1,11 +1,11 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Core;
+namespace TheRichardW\TranslateScanner\Core;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Lang;
-use KKomelin\TranslatableStringExporter\Core\Utils\IO;
-use KKomelin\TranslatableStringExporter\Core\Utils\JSON;
+use TheRichardW\TranslateScanner\Core\Utils\IO;
+use TheRichardW\TranslateScanner\Core\Utils\JSON;
 
 class Exporter
 {

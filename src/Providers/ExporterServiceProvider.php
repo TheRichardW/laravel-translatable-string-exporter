@@ -1,12 +1,12 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Providers;
+namespace TheRichardW\TranslateScanner\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use KKomelin\TranslatableStringExporter\Console\ExportCommand;
-use KKomelin\TranslatableStringExporter\Console\InspectTranslationsCommand;
-use KKomelin\TranslatableStringExporter\Core\Exporter;
-use KKomelin\TranslatableStringExporter\Core\UntranslatedStringFinder;
+use TheRichardW\TranslateScanner\Console\ExportCommand;
+use TheRichardW\TranslateScanner\Console\InspectTranslationsCommand;
+use TheRichardW\TranslateScanner\Core\Exporter;
+use TheRichardW\TranslateScanner\Core\UntranslatedStringFinder;
 
 class ExporterServiceProvider extends ServiceProvider
 {

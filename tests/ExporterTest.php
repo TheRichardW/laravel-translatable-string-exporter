@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use KKomelin\TranslatableStringExporter\Core\Exporter;
+use TheRichardW\TranslateScanner\Core\Exporter;
 
 class ExporterTest extends BaseTestCase
 {

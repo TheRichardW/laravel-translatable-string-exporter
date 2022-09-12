@@ -1,11 +1,11 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Core\Utils;
+namespace TheRichardW\TranslateScanner\Core\Utils;
 
 /**
  * Class IO is responsible for reading from and writing to files.
  *
- * @package KKomelin\TranslatableStringExporter\Core
+ * @package TheRichardW\TranslateScanner\Core
  */
 class IO
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Core;
+namespace TheRichardW\TranslateScanner\Core;
 
 use Symfony\Component\Finder\Finder;
 

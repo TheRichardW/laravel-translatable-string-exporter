@@ -1,11 +1,11 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Console;
+namespace TheRichardW\TranslateScanner\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use KKomelin\TranslatableStringExporter\Core\Exporter;
-use KKomelin\TranslatableStringExporter\Core\UntranslatedStringFinder;
+use TheRichardW\TranslateScanner\Core\Exporter;
+use TheRichardW\TranslateScanner\Core\UntranslatedStringFinder;
 use Symfony\Component\Console\Input\InputArgument;
 
 class InspectTranslationsCommand extends Command

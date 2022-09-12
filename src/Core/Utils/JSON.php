@@ -1,6 +1,6 @@
 <?php
 
-namespace KKomelin\TranslatableStringExporter\Core\Utils;
+namespace TheRichardW\TranslateScanner\Core\Utils;
 
 class JSON
 {
