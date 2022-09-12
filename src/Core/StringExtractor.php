@@ -33,7 +33,7 @@ class StringExtractor
         foreach ($files as $file) {
             $strings = array_merge($strings, $this->parser->parse($file));
         }
-
+        $strings = str_replace('\\', '', $strings);
         return $this->formatArray($strings);
     }
 
