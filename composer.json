@@ -1,5 +1,5 @@
 {
-    "name": "therichardw/laravel-translatable-string-exporter",
+    "name": "therichardw/translate-scanner",
     "description": "Translatable String Exporter for Laravel without double escapes",
     "keywords": ["laravel", "translations", "translation", "export", "exporter", "json", "localization"],
     "license": "MIT",
