@@ -1,8 +1,5 @@
-# Translatable String Exporter for Laravel
-
-[![Tests Status Badge](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/run-tests.yml/badge.svg)](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/run-tests.yml)
-[![PHPStan Status Badge](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/phpstan.yml.yml/badge.svg)](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/phpstan.yml.yml)
-[![Code Styles Check Badge](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/kkomelin/laravel-translatable-string-exporter/actions/workflows/php-cs-fixer.yml)
+# This Package is Based of Translatable String Exporter for Laravel From kkomelin
+https://github.com/kkomelin/laravel-translatable-string-exporter 
 
 Since Laravel 5.4, you can use `__('Translate me')` or `@lang('Translate me')` with translations in JSON files to translate strings.
 Translatable String Exporter is aimed to collect all translatable strings of an application and create corresponding translation files in JSON format to simplify the process of translation.
@@ -21,7 +18,7 @@ _Even though we drop support for PHP versions in minor releases, Composer ensure
 _Normally, it's enough to install the package as a development dependency._
 
 ```bash
-composer require kkomelin/laravel-translatable-string-exporter --dev
+composer require therichardw/translate-scanner --dev
 ```
 
 ## Configuration
