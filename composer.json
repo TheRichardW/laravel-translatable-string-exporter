@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "KKomelin\\TranslatableStringExporter\\": "src/"
+            "TheRichardW\\TranslatableStringExporter\\": "src/"
         }
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KKomelin\\TranslatableStringExporter\\Providers\\ExporterServiceProvider"
+                "TheRichardW\\TranslatableStringExporter\\Providers\\ExporterServiceProvider"
             ]
         }
     },
